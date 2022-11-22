@@ -37,9 +37,9 @@ module.exports = {
       ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
-  [✨ Support Server](${
+  [Support Server](${
     client.botconfig.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | [Dashboard](${client.botconfig.Website}) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | [GitHub](https://github.com/Little-Night-Wolf/El-Bot-De-Las-Rolitas) | [Dashboard](${client.botconfig.Website}) | By [NightWolf](https://github.com/Little-Night-Wolf)`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
@@ -123,7 +123,7 @@ module.exports = {
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.botconfig.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | [Dashboard](${client.botconfig.Website}) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | [GitHub](https://github.com/Little-Night-Wolf/El-Bot-De-Las-Rolitas) | [Dashboard](${client.botconfig.Website}) | By [NightWolf](https://github.com/Little-Night-Wolf)`);
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
